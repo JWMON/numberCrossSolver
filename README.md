@@ -44,7 +44,7 @@ The solution provides information on each squares about their color.
 make
 ```
 
-##### To run this program,
+##### To run this program, install z3 solver and
 ```
 hw1.out < input
 ```
