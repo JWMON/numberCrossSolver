@@ -1,12 +1,16 @@
 ## Number cross solver by using z3 solver
+  
+  
+  
 
 This program takes number cross puzzle through standard input and provides solution for the puzzle.
 
 ### Input
 
-Each number in the first line should be the sum of numbers in the Black squares of the column.  
-After first line, each number at the last of the row should be the sum of numbers in the White quares of the row.  
-**No line feed after the last number**  
+##### Each number in the first line should be the sum of numbers in the Black squares of the column.  
+##### After first line, each number at the last of the row should be the sum of numbers in the White quares of the row.  
+  
+##### *No line feed after the last number
 For a 7x7 number cross example:  
 ```c
 3 25 9 23 5 6 7
@@ -32,18 +36,17 @@ The solution provides information on each squares about their color.
 ```
 
 ##### "No solution" will be printed if there is no solution.
-###
-###
+
 ### Instruction
-###
+
 ##### To build this program, 
 ```
 make
 ```
-###
+
 ##### To run this program,
 ```
 hw1.out < input
 ```
-###
+
 ##### When executed, the program will make seperate file called "formula" which contains the input for z3 solver for reference.
