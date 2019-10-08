@@ -1,13 +1,13 @@
-## Number cross solver by using z3 solver.
+## Number cross solver by using z3 solver
 
 ##### This program takes number cross puzzle through standard input and provides solution for the puzzle. 
 
 ### Input
 
 ##### Each number in the first line should be the sum of numbers in the Black squares of the column.
-##### After first line, each number at the last of the row should be the sum of numbers in the White quares of the row.
-##### **No line feed after the last number**
-##### For a 7x7 number cross example:
+After first line, each number at the last of the row should be the sum of numbers in the White quares of the row.
+**No line feed after the last number**
+For a 7x7 number cross example:
 ```c
 3 25 9 23 5 6 7
 1 2 3 4 5 6 7 17
